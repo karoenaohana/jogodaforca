@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap');
+
+body {
+    display: grid;
+    background: rgb(251, 243, 63);
+    background: radial-gradient(circle, rgba(251, 243, 63, 1) 0%, rgba(7, 131, 0, 1) 47%, rgba(0, 56, 255, 1) 100%);
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'DynaPuff';
+    font-size: large;
+    box-sizing: border-box;
+
+
+}
+
+.letra {
+    color: yellow;
+    -webkit-text-stroke: 2px black;
+    border-radius: 10px;
+    border-color: none;
+    width: 60px;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: transparent;
+    font-family: 'DynaPuff';
+    border-color: rgb(0, 200, 255);
+    display: inline-block;
+    border-style: 1px;
+    display: block;
+    position: relative;
+    min-height: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 0px 0px 20px blue;
+}
+
+.letraJ {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'DynaPuff';
+    text-transform: uppercase;
+    -webkit-text-stroke: 2px black;
+    transform: scale(1);
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: 0px 0px 20px yellow;
+
+
+
+}
+.container-bnt button{
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .75);
+    transition: .2s;
+    transform: scale(1.2);
+}
